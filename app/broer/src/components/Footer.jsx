@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css'
+import {Icons} from './icons/Icons'
 
 
 export const Footer = () => {
@@ -18,9 +19,9 @@ export const Footer = () => {
                 <p>Copyright © Broer {new Date().getFullYear()}</p>
             </div>
             <div className="icons-container">
-            <img className="icon" src={process.env.PUBLIC_URL + 'Insta.png'} alt ="logo" /> 
-            <img className="icon" src={process.env.PUBLIC_URL + 'IN.png'} alt ="logo" /> 
-            <img className="icon" src={process.env.PUBLIC_URL + 'FB.png'} alt ="logo" /> 
+            <Icons className="socialmedia-icon" type="facebook" />
+            <Icons className="socialmedia-icon" type="instagram" />
+            <Icons className="socialmedia-icon"/>
             </div>
         </div>
     );

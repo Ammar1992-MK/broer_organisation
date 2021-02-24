@@ -1,0 +1,10 @@
+.socialmedia-icon{
+    cursor: pointer;
+    opacity: 0.75;
+    
+}
+
+.socialmedia-icon:hover{
+
+    opacity: 1;
+}
