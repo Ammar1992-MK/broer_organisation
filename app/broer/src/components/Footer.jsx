@@ -21,7 +21,7 @@ export const Footer = () => {
             <div className="icons-container">
             <Icons className="socialmedia-icon" type="facebook" />
             <Icons className="socialmedia-icon" type="instagram" />
-            <Icons className="socialmedia-icon"/>
+            <Icons className="socialmedia-icon" type="linkedin"/>
             </div>
         </div>
     );
