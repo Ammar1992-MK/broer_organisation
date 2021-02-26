@@ -5,12 +5,13 @@ import {Footer} from './components/Footer'
 import {HomePage} from './components/Homepage/HomePage'
 
 function App() {
+
   return (
     <div className="App">
 
-      <Header/>
-      <HomePage/>
-      <Footer/>
+      <Header/>  
+      <HomePage/> 
+       <Footer/>
       </div>
   );
 }

@@ -51,7 +51,7 @@ export const HomePage = () => {
                 <Icons type="cardIcon2"/>
                 </div>
                     <div className="mission-text-container">
-                        <p className="card-text">Integrering gjennom kurs og foredrag</p>
+                        <p className="card-text">Integrering</p>
                     </div>
                 </div>
                 <div className="card">
@@ -59,8 +59,21 @@ export const HomePage = () => {
                 <Icons type="cardIcon3"/>
                 </div>
                     <div className="mission-text-container">
-                        <p className="card-text">Støtte mennesker med spesielle behov</p>
+                        <p className="card-text">Støtte mennesker</p>
                     </div>
+                </div>
+            </div>
+
+            <div className="video-container">
+            <div className="player">
+            <iframe title="player" width="422" height="250" src="https://www.youtube.com/embed/vVnDE8wSrVo" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+             gyroscope; picture-in-picture" allowFullscreen>
+             </iframe>
+           </div>
+                <div className="get-to-know-us-container">
+                    <Icons type="arrow"/>
+                    <p className="get-to-know-us"> bli kjent med oss! </p>
                 </div>
             </div>
         </div>
