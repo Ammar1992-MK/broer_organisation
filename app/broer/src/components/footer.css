@@ -24,13 +24,13 @@
     color: #ffffff;
     display: flex;
     align-items: center;
-    width : 20%;
+    max-width : 25%;
     min-width : 15%;
 }
 
 .icons-container{
 
-    width : 20%;
+    max-width : 25%;
     min-width: 15%;
     display: flex;
     align-items: center;

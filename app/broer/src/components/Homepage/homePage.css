@@ -80,7 +80,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width : 55%;
+    max-width : 55%;
     height : 70%;
 }
 .get-to-know-us-container{
