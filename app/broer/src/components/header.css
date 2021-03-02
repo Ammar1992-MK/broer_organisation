@@ -27,7 +27,6 @@
  margin: 3%;
  justify-content: space-between;
  text-transform: uppercase;
- overflow: hidden;
  align-items: center;
 }
 
@@ -42,4 +41,40 @@
 
     color : burlywood;
     border-bottom: 1px solid burlywood;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /*style*/
+
+    .header-main-div{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+        height : 35%; 
+            
+}
+.logo-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width : 80%;
+}
+
+.logo{
+
+    width : 35%;
+    
+}
+
+.nav-links-container{
+    color: #3F639A;
+    width : 20%;
+    height : 0%;
+    font-size: 20px;
+}
+   
+    
 }

@@ -1,4 +1,4 @@
-import {React} from 'react'
+import {React, useState, useEffect} from 'react'
 import Typewriter from 'typewriter-effect'
 import {Icons} from '../icons/Icons'
 import './homePage.css'
@@ -75,7 +75,7 @@ export const HomePage = () => {
                     <Icons type="arrow"/>
                     <p className="get-to-know-us"> bli kjent med oss! </p>
                 </div>
-            </div>
+                </div> 
         </div>
     );
 }
