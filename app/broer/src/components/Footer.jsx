@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import {Icons} from './icons/Icons'
+import {Icons} from './Icons/Icons'
 
 
 export const Footer = () => {

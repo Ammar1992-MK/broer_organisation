@@ -1,6 +1,6 @@
 import {React, useState, useEffect} from 'react'
 import Typewriter from 'typewriter-effect'
-import {Icons} from '../icons/Icons'
+import {Icons} from '../Icons/Icons'
 import './homePage.css'
 
 export const HomePage = () => {
