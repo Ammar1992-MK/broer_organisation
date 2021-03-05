@@ -4,6 +4,11 @@ import './contactUs.css'
 
 export const ContactUs = () => {
 
+    const sendEmail = () => {
+
+        console.log("email");
+    }
+
     return (
 
         <div className="contactUs-main-container">
@@ -27,7 +32,22 @@ export const ContactUs = () => {
                 </div>
             </div>
 
-            <div className="become-memeber-container"></div>
+            <div className="become-memeber-container">
+
+                <form className="from" onSubmit={sendEmail}>
+                    <label>Fult Navn</label>
+                    <input type="text" className="input" name="name" ></input>
+                    <label>Fødselsdato</label>
+                    <input type="date" className="input" name="date" ></input>
+                    <label>Mobilnummer</label>
+                    <input className="input" name="number" ></input>
+                    <label>Epost</label>
+                    <input type="email" className="input" name="email" ></input>
+                    <textarea className="text-message" placeholder="Din melding til oss"></textarea>
+                </form>
+
+            
+            </div>
         </div>
     );
 }
