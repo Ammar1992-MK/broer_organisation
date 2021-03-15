@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {Icons} from '../Icons/Icons'
 import './contactUs.css'
 import emailjs from 'emailjs-com';
 
 export const ContactUs = () => {
 
-   
+    const [date, setDate] = useState();
+
+    console.log(date);
 
     function sendEmail (e) {
         
@@ -29,13 +31,13 @@ export const ContactUs = () => {
 
                 <form className="from" onSubmit={sendEmail}>
                     <label>Fult Navn</label>
-                    <input type="text" className="input" name="name" ></input>
+                    <input type="text" className="input"  name="name" ></input>
                     <label>Fødselsdato</label>
-                    <input type="date" className="input" name="date" ></input>
+                    <input type="date" className="input" onChange={e => setDate(e.target.value)} name="date" ></input>
                     <label>Mobilnummer</label>
                     <input className="input" name="number" ></input>
                     <label>Epost</label>
-                    <input type="email" className="input" name="email" ></input>
+                    <input type="email" className="input"  name="email" ></input>
                     <textarea className="text-message" placeholder="Din melding til oss" name="message"></textarea>
 
                     <input className="submit-btn" type="submit" value="Send"></input>
